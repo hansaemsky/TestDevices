@@ -1,6 +1,27 @@
 <div>
-    <h2>Home</h2>
+    <h1>Home</h1>
     <p>음</p>
     <p>sem</p>
 </div>
+<p>
+   SVG로 그린 직사각형과 원입니다.
+    <svg>
+        <rect x="50" y="30" width="150" height="100" fill="#000080"
+        <circle cx="180" cy="100" r="50" fill="#fff00" />
+    </svg>
+</p>
+<section>
+    <form action="#" id="form">
+        <input type="text" name="word">
+        <input type="submit" value="검색">
+    </form>
+    <p id="output"></p>
+</section>
 
+<script>
+    document.getElementById('form').onsubmit = function() {
+        var search = document.getElementById('form').word.value;
+        document.getElementById('output').textContent = '『' + search + '』검색 중...';
+        return false;
+    };
+</script>
