@@ -1,5 +1,4 @@
 /* 리스트 부분 정렬 및 색상 ?? */
-<style type="text/css">
 body {
   font-family: Arial, Verdana, sans-serif;
   color: #111111;}
@@ -8,5 +7,4 @@ li {
   margin-right: 100px;}
 li.coming-soon {
   display: none;}
-</style>
 
